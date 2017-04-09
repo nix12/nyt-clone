@@ -1,0 +1,91 @@
+nav {
+	border-bottom: 1px solid lightgrey;
+	overflow: auto;
+	position: absolute;
+	display: block;
+	width: 100%;
+}
+
+.nav-left {
+	float: left;
+	margin-left: -20px;
+}
+
+.nav-left ul li {
+	list-style: none;
+	display: inline;
+}
+
+.nav-left button {
+	border: none;
+	background-color: white;
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	font-weight: 700;
+}
+
+#icon1 {
+	background-image: url(../images/favicon.ico);
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	padding-left: 28px;
+}
+
+#icon2 {
+	background-image: url(../images/index.png);
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	padding-left: 28px;
+}
+
+#icon3 {
+	background-image: url(../images/magnify.png);
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	padding-left: 28px;
+}
+
+.box-shadow {
+	box-shadow: rgba(0,0,0,0.6) 0px 3px 2px;
+}
+
+#logo {
+	height: 26px;
+	width: 185px;
+}
+
+#banner {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.nav-right {
+	float: right;
+	margin-top: -10px;
+}
+
+.nav-right ul li {
+	display: inline;
+	list-style: none;
+}
+
+.nav-right button {
+	border: none;
+	background-color: white;
+	font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+	font-weight: 700;
+}
+
+#settings {
+	height: 25px;
+	width: 25px;
+	margin: auto;
+}
+
+#login {
+	background-color: #6288a5;
+	border-color: #4d7b9f;
+	color: white;
+	height: 30px;
+	font-weight: 700;
+}
+
