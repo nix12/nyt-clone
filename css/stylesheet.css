@@ -1,9 +1,11 @@
 nav {
 	border-bottom: 1px solid lightgrey;
 	overflow: auto;
-	position: absolute;
+	position: fixed;
 	display: block;
 	width: 100%;
+	z-index: 999;
+	background-color: white;
 }
 
 .nav-left {
@@ -89,3 +91,139 @@ nav {
 	font-weight: 700;
 }
 
+header {
+	position: relative;
+	top: 150px;
+	width: 100%;
+	text-align: center;
+}
+
+#ad {
+	display: block;
+}
+
+#separator {
+	border-top: 1px solid black;
+	margin: auto;
+	margin-top: 17px;
+}
+
+#separator a {
+	float: left;
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	font-weight: 700;
+	font-size: 0.8125rem;
+	text-decoration: none;
+	color: black;
+}
+
+article {
+	position: relative;
+	top: 150px;
+}
+
+#title h1 {
+	font-family: "times new roman",times,serif;
+	font-size: 34px;
+	text-align: center;
+	border-bottom: 1px solid lightgrey;
+	display: block;
+	clear: both;
+}
+
+#author {
+	float: left;
+	clear: left;
+}
+
+#media {
+	display: block;
+	position: relative;
+	margin: 0 10px;
+}
+
+header, article, footer {
+	width: 70%;
+	margin: auto;
+}
+
+#author {
+	display: inline;
+}
+
+#author span a {
+	text-decoration: none;
+	color: black;
+	font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+	font-size: 0.6875rem;
+}
+
+#date {
+	font-size: 0.6875rem;
+}
+
+.media {
+	float: right;
+}
+
+.media ul li {
+	list-style: none;
+	display: inline;
+}
+
+#facebook {
+	background-image: url(../images/facebook.jpg);
+	background-size: 25px;
+	background-repeat: no-repeat;
+}
+
+#twitter {
+	background-image: url(../images/twitter.png);
+	background-size: 25px;
+	background-repeat: no-repeat;
+}
+
+#description {
+	font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+	color: grey;
+	font-size: 14px;
+}
+
+#something span {
+	position: absolute;
+	width: 180px;
+	margin: 0;
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 300;
+	color: #000000;
+}
+
+#something img {
+	display: block;
+}
+
+.top {
+	top: 80%;
+}
+
+.bottom {
+	top: 91.5%
+}
+
+.left {
+	left: 0%;
+}
+
+.middle1 {
+	left: 26%;
+}
+
+.middle2 {
+	left: 52%;
+}
+
+.right {
+	left: 78%;
+}
