@@ -6,6 +6,7 @@ nav {
 	width: 100%;
 	z-index: 999;
 	background-color: white;
+	top: 0;
 }
 
 .nav-left {
@@ -205,11 +206,11 @@ header, article, footer {
 }
 
 .top {
-	top: 80%;
+	top: 33.5%;
 }
 
 .bottom {
-	top: 91.5%
+	top: 38%
 }
 
 .left {
@@ -226,4 +227,52 @@ header, article, footer {
 
 .right {
 	left: 78%;
+}
+
+.small-separator {
+	border-bottom: 1px solid black;
+	width: 75px;
+}
+
+.close {
+	font-size: 0.6875rem;
+	line-height: 0.9375rem;
+	font-weight: 300;
+	font-style: normal;
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	color: #999;
+}
+
+#carousel {
+	position: relative;
+	height: 100px;
+	top: 60px;
+	width: 100%;
+}
+
+#carousel ol li {
+	display: inline;
+}
+
+.carousel-align {
+	display: inline-block;
+	border-right: 1px solid lightgrey;
+	width: 25%;
+	height: 100%;
+}
+
+#carousel ol {
+	overflow: auto;
+}
+
+.carousel-align p {
+	/*display: inline;*/
+	font-size: 12px;
+	width: 60%;
+	height: 100%;
+	float: right;
+}
+
+.carousel-align img {
+	/*display: inline;*/
 }
